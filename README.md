@@ -34,6 +34,10 @@ GKPageScrollView是一个UIScrollview嵌套滑动库，主要参考了[JXPagingV
 
 如果发现pod search GKPageScrollView/GKPageScrollViewSwift 不是最新版本，在终端执行pod setup命令更新本地spec镜像缓存，重新搜索即可。
 
+
+### 3、Carthage 安装:
+`git "https://platgit.mihoyo.com/plat/client/app/ios-specs/GKPageScrollView.git" "master"
+
 ## 效果图
 
 | 说明 | 效果图 |

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:GKPageScrollViewObjc/GKPageScrollViewObjc.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:GKPageScrollViewSwift/GKPageScrollViewSwift.xcodeproj">
    </FileRef>
    <FileRef

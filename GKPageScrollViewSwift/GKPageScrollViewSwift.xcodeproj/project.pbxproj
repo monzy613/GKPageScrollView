@@ -46,21 +46,17 @@
 		60A20D582226612C00DB2193 /* GKListRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A20D572226612C00DB2193 /* GKListRefreshViewController.swift */; };
 		792D97B0246AE7C800AB7304 /* GKSmoothListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D97AF246AE7C800AB7304 /* GKSmoothListView.swift */; };
 		79410C91246ADE4800073657 /* GKSmoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410C90246ADE4800073657 /* GKSmoothViewController.swift */; };
-		79410CA7246AE31700073657 /* GKPageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA2246AE31700073657 /* GKPageDefine.swift */; };
-		79410CA8246AE31700073657 /* GKPageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA2246AE31700073657 /* GKPageDefine.swift */; };
-		79410CA9246AE31700073657 /* GKPageListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA3246AE31700073657 /* GKPageListContainerView.swift */; };
-		79410CAA246AE31700073657 /* GKPageListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA3246AE31700073657 /* GKPageListContainerView.swift */; };
-		79410CAB246AE31700073657 /* GKPageSmoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA4246AE31700073657 /* GKPageSmoothView.swift */; };
-		79410CAC246AE31700073657 /* GKPageSmoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA4246AE31700073657 /* GKPageSmoothView.swift */; };
-		79410CAD246AE31700073657 /* GKPageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA5246AE31700073657 /* GKPageTableView.swift */; };
-		79410CAE246AE31700073657 /* GKPageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA5246AE31700073657 /* GKPageTableView.swift */; };
-		79410CAF246AE31700073657 /* GKPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA6246AE31700073657 /* GKPageScrollView.swift */; };
-		79410CB0246AE31700073657 /* GKPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79410CA6246AE31700073657 /* GKPageScrollView.swift */; };
 		796AB5FA2443326F00C724D4 /* GKPageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AB5F12443326F00C724D4 /* GKPageScrollView.framework */; };
-		796AB6032443326F00C724D4 /* GKPageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 796AB5F32443326F00C724D4 /* GKPageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		796AB6062443326F00C724D4 /* GKPageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AB5F12443326F00C724D4 /* GKPageScrollView.framework */; };
 		796AB6072443326F00C724D4 /* GKPageScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796AB5F12443326F00C724D4 /* GKPageScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		79C48BB9243AF94D000B0815 /* GKPageScrollViewSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 79C48BB8243AF94D000B0815 /* GKPageScrollViewSwift.podspec */; };
+		D796C7152511C1EE00A975B2 /* GKPageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796C7102511C1ED00A975B2 /* GKPageTableView.swift */; };
+		D796C7162511C1EE00A975B2 /* GKPageListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796C7112511C1ED00A975B2 /* GKPageListContainerView.swift */; };
+		D796C7172511C1EE00A975B2 /* GKPageSmoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796C7122511C1ED00A975B2 /* GKPageSmoothView.swift */; };
+		D796C7182511C1EE00A975B2 /* GKPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796C7132511C1ED00A975B2 /* GKPageScrollView.swift */; };
+		D796C7192511C1EE00A975B2 /* GKPageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796C7142511C1ED00A975B2 /* GKPageDefine.swift */; };
+		D796C73E2511C4A000A975B2 /* GKPageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AB5F12443326F00C724D4 /* GKPageScrollView.framework */; };
+		D796C74A2511C5A000A975B2 /* GKBallLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 602D636424C59FF400D35E08 /* GKBallLoadingView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D796C74F2511C5C700A975B2 /* GKPageScrollViewDemo-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A20D00221E7F0000DB2193 /* GKPageScrollViewDemo-Bridging-Header.h */; };
+		D796C7632511C7F400A975B2 /* GKPageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D796C7612511C7F400A975B2 /* GKPageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +88,7 @@
 			remoteGlobalIDString = 60A20C26221E77A700DB2193;
 			remoteInfo = GKPageScrollViewSwift;
 		};
-		796AB6042443326F00C724D4 /* PBXContainerItemProxy */ = {
+		D796C7432511C4BC00A975B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60A20C1F221E77A700DB2193 /* Project object */;
 			proxyType = 1;
@@ -131,7 +127,7 @@
 		603EDE4E23599F46006D135C /* GKNestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKNestListView.swift; sourceTree = "<group>"; };
 		603EDE512359A018006D135C /* GKVTMagicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKVTMagicViewController.swift; sourceTree = "<group>"; };
 		60A09FCC2239F420004AE07A /* GKListLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKListLoadViewController.swift; sourceTree = "<group>"; };
-		60A20C27221E77A700DB2193 /* GKPageScrollViewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKPageScrollViewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A20C27221E77A700DB2193 /* GKPageScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKPageScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A20C2A221E77A700DB2193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60A20C2C221E77A700DB2193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60A20C2F221E77A700DB2193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -145,7 +141,7 @@
 		60A20CBE221E78D300DB2193 /* libSnapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSnapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A20CC0221E78D300DB2193 /* libWMPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWMPageController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A20CC2221E78F500DB2193 /* libGKNavigationBarViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGKNavigationBarViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		60A20D00221E7F0000DB2193 /* GKPageScrollViewSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKPageScrollViewSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		60A20D00221E7F0000DB2193 /* GKPageScrollViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKPageScrollViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		60A20D0C221E813300DB2193 /* GKDemoBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKDemoBaseViewController.swift; sourceTree = "<group>"; };
 		60A20D0E221E827800DB2193 /* GKBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKBaseTableViewController.swift; sourceTree = "<group>"; };
 		60A20D10221E828F00DB2193 /* GKBasePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKBasePageViewController.swift; sourceTree = "<group>"; };
@@ -167,16 +163,17 @@
 		6AF84D77570853DCA6E94706 /* Pods_GKPageScrollViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKPageScrollViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		792D97AF246AE7C800AB7304 /* GKSmoothListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKSmoothListView.swift; sourceTree = "<group>"; };
 		79410C90246ADE4800073657 /* GKSmoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKSmoothViewController.swift; sourceTree = "<group>"; };
-		79410CA2246AE31700073657 /* GKPageDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKPageDefine.swift; path = ../../../GKPageScrollView/swift/GKPageDefine.swift; sourceTree = "<group>"; };
-		79410CA3246AE31700073657 /* GKPageListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKPageListContainerView.swift; path = ../../../GKPageScrollView/swift/GKPageListContainerView.swift; sourceTree = "<group>"; };
-		79410CA4246AE31700073657 /* GKPageSmoothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKPageSmoothView.swift; path = ../../../GKPageScrollView/swift/GKPageSmoothView.swift; sourceTree = "<group>"; };
-		79410CA5246AE31700073657 /* GKPageTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKPageTableView.swift; path = ../../../GKPageScrollView/swift/GKPageTableView.swift; sourceTree = "<group>"; };
-		79410CA6246AE31700073657 /* GKPageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKPageScrollView.swift; path = ../../../GKPageScrollView/swift/GKPageScrollView.swift; sourceTree = "<group>"; };
 		796AB5F12443326F00C724D4 /* GKPageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GKPageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		796AB5F32443326F00C724D4 /* GKPageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPageScrollView.h; sourceTree = "<group>"; };
-		796AB5F42443326F00C724D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796AB5F92443326F00C724D4 /* GKPageScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKPageScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C48BB8243AF94D000B0815 /* GKPageScrollViewSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GKPageScrollViewSwift.podspec; path = ../../GKPageScrollViewSwift.podspec; sourceTree = "<group>"; };
+		D796C7102511C1ED00A975B2 /* GKPageTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPageTableView.swift; sourceTree = "<group>"; };
+		D796C7112511C1ED00A975B2 /* GKPageListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPageListContainerView.swift; sourceTree = "<group>"; };
+		D796C7122511C1ED00A975B2 /* GKPageSmoothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPageSmoothView.swift; sourceTree = "<group>"; };
+		D796C7132511C1ED00A975B2 /* GKPageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPageScrollView.swift; sourceTree = "<group>"; };
+		D796C7142511C1ED00A975B2 /* GKPageDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPageDefine.swift; sourceTree = "<group>"; };
+		D796C75C2511C6DD00A975B2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D796C7612511C7F400A975B2 /* GKPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPageScrollView.h; sourceTree = "<group>"; };
+		D796C7622511C7F400A975B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94C926241763436B8AA17A8 /* Pods-GKPageScrollViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKPageScrollViewSwift.debug.xcconfig"; path = "Target Support Files/Pods-GKPageScrollViewSwift/Pods-GKPageScrollViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,8 +182,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D796C73E2511C4A000A975B2 /* GKPageScrollView.framework in Frameworks */,
 				19510CD3B30378DAA00FF039 /* Pods_GKPageScrollViewSwift.framework in Frameworks */,
-				796AB6062443326F00C724D4 /* GKPageScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +287,9 @@
 		60A20C1E221E77A700DB2193 = {
 			isa = PBXGroup;
 			children = (
-				60A20C29221E77A700DB2193 /* GKPageScrollViewSwift */,
-				796AB5F22443326F00C724D4 /* GKPageScrollView */,
+				D796C75C2511C6DD00A975B2 /* README.md */,
+				D796C70F2511C1ED00A975B2 /* GKPageScrollView */,
+				60A20C29221E77A700DB2193 /* GKPageScrollViewDemo */,
 				60A20C28221E77A700DB2193 /* Products */,
 				2D3BB49EA7CF77ECC9D63661 /* Pods */,
 				AD9C4495DC5A2FBDD815ADA8 /* Frameworks */,
@@ -301,7 +299,7 @@
 		60A20C28221E77A700DB2193 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60A20C27221E77A700DB2193 /* GKPageScrollViewSwift.app */,
+				60A20C27221E77A700DB2193 /* GKPageScrollViewDemo.app */,
 				60A20C3B221E77A800DB2193 /* GKPageScrollViewSwiftTests.xctest */,
 				60A20C46221E77A800DB2193 /* GKPageScrollViewSwiftUITests.xctest */,
 				796AB5F12443326F00C724D4 /* GKPageScrollView.framework */,
@@ -310,10 +308,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60A20C29221E77A700DB2193 /* GKPageScrollViewSwift */ = {
+		60A20C29221E77A700DB2193 /* GKPageScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				79410CA1246AE30600073657 /* GKPageScrollView */,
 				60A20D04221E80AA00DB2193 /* Demo */,
 				60A20C2A221E77A700DB2193 /* AppDelegate.swift */,
 				60A20C2C221E77A700DB2193 /* ViewController.swift */,
@@ -321,11 +318,11 @@
 				60A20C31221E77A800DB2193 /* Assets.xcassets */,
 				60A20C33221E77A800DB2193 /* LaunchScreen.storyboard */,
 				60A20C36221E77A800DB2193 /* Info.plist */,
-				60A20D00221E7F0000DB2193 /* GKPageScrollViewSwift-Bridging-Header.h */,
+				60A20D00221E7F0000DB2193 /* GKPageScrollViewDemo-Bridging-Header.h */,
 				60A20D39221F973F00DB2193 /* GKCommon.swift */,
 				79C48BB8243AF94D000B0815 /* GKPageScrollViewSwift.podspec */,
 			);
-			path = GKPageScrollViewSwift;
+			path = GKPageScrollViewDemo;
 			sourceTree = "<group>";
 		};
 		60A20D04221E80AA00DB2193 /* Demo */ = {
@@ -416,27 +413,6 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
-		79410CA1246AE30600073657 /* GKPageScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				79410CA6246AE31700073657 /* GKPageScrollView.swift */,
-				79410CA5246AE31700073657 /* GKPageTableView.swift */,
-				79410CA3246AE31700073657 /* GKPageListContainerView.swift */,
-				79410CA4246AE31700073657 /* GKPageSmoothView.swift */,
-				79410CA2246AE31700073657 /* GKPageDefine.swift */,
-			);
-			path = GKPageScrollView;
-			sourceTree = "<group>";
-		};
-		796AB5F22443326F00C724D4 /* GKPageScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				796AB5F32443326F00C724D4 /* GKPageScrollView.h */,
-				796AB5F42443326F00C724D4 /* Info.plist */,
-			);
-			path = GKPageScrollView;
-			sourceTree = "<group>";
-		};
 		79CBF847246ADC330020B259 /* Smooth */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,6 +435,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D796C70F2511C1ED00A975B2 /* GKPageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D796C7622511C7F400A975B2 /* Info.plist */,
+				D796C7612511C7F400A975B2 /* GKPageScrollView.h */,
+				D796C7102511C1ED00A975B2 /* GKPageTableView.swift */,
+				D796C7112511C1ED00A975B2 /* GKPageListContainerView.swift */,
+				D796C7122511C1ED00A975B2 /* GKPageSmoothView.swift */,
+				D796C7132511C1ED00A975B2 /* GKPageScrollView.swift */,
+				D796C7142511C1ED00A975B2 /* GKPageDefine.swift */,
+			);
+			name = GKPageScrollView;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -466,18 +457,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796AB6032443326F00C724D4 /* GKPageScrollView.h in Headers */,
+				D796C7632511C7F400A975B2 /* GKPageScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D796C7492511C59D00A975B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D796C74A2511C5A000A975B2 /* GKBallLoadingView.h in Headers */,
+				D796C74F2511C5C700A975B2 /* GKPageScrollViewDemo-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		60A20C26221E77A700DB2193 /* GKPageScrollViewSwift */ = {
+		60A20C26221E77A700DB2193 /* GKPageScrollViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60A20C4F221E77A800DB2193 /* Build configuration list for PBXNativeTarget "GKPageScrollViewSwift" */;
+			buildConfigurationList = 60A20C4F221E77A800DB2193 /* Build configuration list for PBXNativeTarget "GKPageScrollViewDemo" */;
 			buildPhases = (
 				0EE27D26A2E01EB534D5FCF2 /* [CP] Check Pods Manifest.lock */,
+				D796C7492511C59D00A975B2 /* Headers */,
 				60A20C23221E77A700DB2193 /* Sources */,
 				60A20C24221E77A700DB2193 /* Frameworks */,
 				60A20C25221E77A700DB2193 /* Resources */,
@@ -487,11 +488,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				796AB6052443326F00C724D4 /* PBXTargetDependency */,
+				D796C7442511C4BC00A975B2 /* PBXTargetDependency */,
 			);
-			name = GKPageScrollViewSwift;
+			name = GKPageScrollViewDemo;
 			productName = GKPageScrollViewSwift;
-			productReference = 60A20C27221E77A700DB2193 /* GKPageScrollViewSwift.app */;
+			productReference = 60A20C27221E77A700DB2193 /* GKPageScrollViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		60A20C3A221E77A800DB2193 /* GKPageScrollViewSwiftTests */ = {
@@ -615,7 +616,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60A20C26221E77A700DB2193 /* GKPageScrollViewSwift */,
+				60A20C26221E77A700DB2193 /* GKPageScrollViewDemo */,
 				60A20C3A221E77A800DB2193 /* GKPageScrollViewSwiftTests */,
 				60A20C45221E77A800DB2193 /* GKPageScrollViewSwiftUITests */,
 				796AB5F02443326F00C724D4 /* GKPageScrollView */,
@@ -632,7 +633,6 @@
 				60A20C35221E77A800DB2193 /* LaunchScreen.storyboard in Resources */,
 				60A20C32221E77A800DB2193 /* Assets.xcassets in Resources */,
 				60A20C30221E77A700DB2193 /* Main.storyboard in Resources */,
-				79C48BB9243AF94D000B0815 /* GKPageScrollViewSwift.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,10 +721,8 @@
 				60A20D0D221E813300DB2193 /* GKDemoBaseViewController.swift in Sources */,
 				60A20D582226612C00DB2193 /* GKListRefreshViewController.swift in Sources */,
 				60A20D5222256CC900DB2193 /* GKDYListViewController.swift in Sources */,
-				79410CAD246AE31700073657 /* GKPageTableView.swift in Sources */,
 				603E262F23AC8B7300FFEF28 /* GKTestViewController.swift in Sources */,
 				600A95C2235EB064009EAA9F /* GKNest2View.swift in Sources */,
-				79410CAF246AE31700073657 /* GKPageScrollView.swift in Sources */,
 				60A20C2D221E77A700DB2193 /* ViewController.swift in Sources */,
 				600A95C0235EB04F009EAA9F /* GKNestScrollView.swift in Sources */,
 				60A09FCD2239F420004AE07A /* GKListLoadViewController.swift in Sources */,
@@ -732,7 +730,6 @@
 				792D97B0246AE7C800AB7304 /* GKSmoothListView.swift in Sources */,
 				60A20D35221F958500DB2193 /* GKWYListViewController.swift in Sources */,
 				60A20D1B221E91CF00DB2193 /* GKWBHeaderView.swift in Sources */,
-				79410CAB246AE31700073657 /* GKPageSmoothView.swift in Sources */,
 				60A20D4B2223BACB00DB2193 /* GKWBFindViewController.swift in Sources */,
 				60A20D17221E91B900DB2193 /* GKWBListViewController.swift in Sources */,
 				60A20D5422256CD600DB2193 /* GKDYHeaderView.swift in Sources */,
@@ -742,7 +739,6 @@
 				603EDE4D23599F3F006D135C /* GKNestView.swift in Sources */,
 				603EDE522359A018006D135C /* GKVTMagicViewController.swift in Sources */,
 				602D636524C59FF400D35E08 /* GKBallLoadingView.m in Sources */,
-				79410CA9246AE31700073657 /* GKPageListContainerView.swift in Sources */,
 				60A20D15221E918E00DB2193 /* GKWBViewController.swift in Sources */,
 				603EDE4F23599F46006D135C /* GKNestListView.swift in Sources */,
 				79410C91246ADE4800073657 /* GKSmoothViewController.swift in Sources */,
@@ -751,7 +747,6 @@
 				60A20D13221E829800DB2193 /* GKBaseListViewController.swift in Sources */,
 				60A20D562226611300DB2193 /* GKMainRefreshViewController.swift in Sources */,
 				600891D822A4FD9A002A6D52 /* GKHeaderScrollViewController.swift in Sources */,
-				79410CA7246AE31700073657 /* GKPageDefine.swift in Sources */,
 				60A20D1D221E928B00DB2193 /* GKWBPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,11 +769,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79410CAC246AE31700073657 /* GKPageSmoothView.swift in Sources */,
-				79410CB0246AE31700073657 /* GKPageScrollView.swift in Sources */,
-				79410CAE246AE31700073657 /* GKPageTableView.swift in Sources */,
-				79410CAA246AE31700073657 /* GKPageListContainerView.swift in Sources */,
-				79410CA8246AE31700073657 /* GKPageDefine.swift in Sources */,
+				D796C7152511C1EE00A975B2 /* GKPageTableView.swift in Sources */,
+				D796C7162511C1EE00A975B2 /* GKPageListContainerView.swift in Sources */,
+				D796C7182511C1EE00A975B2 /* GKPageScrollView.swift in Sources */,
+				D796C7192511C1EE00A975B2 /* GKPageDefine.swift in Sources */,
+				D796C7172511C1EE00A975B2 /* GKPageSmoothView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,12 +789,12 @@
 /* Begin PBXTargetDependency section */
 		60A20C3D221E77A800DB2193 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60A20C26221E77A700DB2193 /* GKPageScrollViewSwift */;
+			target = 60A20C26221E77A700DB2193 /* GKPageScrollViewDemo */;
 			targetProxy = 60A20C3C221E77A800DB2193 /* PBXContainerItemProxy */;
 		};
 		60A20C48221E77A800DB2193 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60A20C26221E77A700DB2193 /* GKPageScrollViewSwift */;
+			target = 60A20C26221E77A700DB2193 /* GKPageScrollViewDemo */;
 			targetProxy = 60A20C47221E77A800DB2193 /* PBXContainerItemProxy */;
 		};
 		796AB5FC2443326F00C724D4 /* PBXTargetDependency */ = {
@@ -809,13 +804,13 @@
 		};
 		796AB5FE2443326F00C724D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60A20C26221E77A700DB2193 /* GKPageScrollViewSwift */;
+			target = 60A20C26221E77A700DB2193 /* GKPageScrollViewDemo */;
 			targetProxy = 796AB5FD2443326F00C724D4 /* PBXContainerItemProxy */;
 		};
-		796AB6052443326F00C724D4 /* PBXTargetDependency */ = {
+		D796C7442511C4BC00A975B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 796AB5F02443326F00C724D4 /* GKPageScrollView */;
-			targetProxy = 796AB6042443326F00C724D4 /* PBXContainerItemProxy */;
+			targetProxy = D796C7432511C4BC00A975B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -890,7 +885,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -945,7 +940,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -966,8 +961,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = X52753HQNM;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = GKPageScrollViewSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = GKPageScrollViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -975,7 +969,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.pageScrollSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = aystfm_dev_test;
-				SWIFT_OBJC_BRIDGING_HEADER = "GKPageScrollViewSwift/GKPageScrollViewSwift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GKPageScrollViewDemo/GKPageScrollViewDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -994,8 +988,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = X52753HQNM;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = GKPageScrollViewSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = GKPageScrollViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1003,7 +996,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.pageScrollSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = aystfm_dev_test;
-				SWIFT_OBJC_BRIDGING_HEADER = "GKPageScrollViewSwift/GKPageScrollViewSwift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GKPageScrollViewDemo/GKPageScrollViewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -1100,9 +1093,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GKPageScrollView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1131,9 +1123,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GKPageScrollView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1155,7 +1146,6 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GKPageScrollViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1175,7 +1165,6 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GKPageScrollViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1201,7 +1190,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60A20C4F221E77A800DB2193 /* Build configuration list for PBXNativeTarget "GKPageScrollViewSwift" */ = {
+		60A20C4F221E77A800DB2193 /* Build configuration list for PBXNativeTarget "GKPageScrollViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60A20C50221E77A800DB2193 /* Debug */,
