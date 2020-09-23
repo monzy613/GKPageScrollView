@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.social_media_url    = 'https://github.com/QuintGao'
   s.platform            = :ios, "10.0"
   s.source              = { :git => "https://platgit.mihoyo.com/plat/client/app/ios-specs/GKPageScrollView.git", :tag => s.version }
-  s.source_files        = 'GKPageScrollView/*.{swift}'
+  s.source_files        = 'Sources/*.{swift}'
   s.swift_version 	    = '5.2'
   s.requires_arc 	    = true
 end
