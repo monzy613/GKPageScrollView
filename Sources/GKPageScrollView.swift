@@ -486,14 +486,14 @@ extension GKPageScrollView: UITableViewDataSource, UITableViewDelegate {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.selectionStyle = .none
-        for view in cell.contentView.subviews {
-            view.removeFromSuperview()
-        }
         let width = self.frame.size.width == 0 ? GKPage_Screen_Width : self.frame.size.width
         let height = self.frame.size.height == 0 ? GKPage_Screen_Height : self.frame.size.height
         
         let pageView: UIView
         if self.shouldLazyLoadListView() {
+            for view in cell.contentView.subviews {
+                view.removeFromSuperview()
+            }
             pageView = UIView()
             
             let segmentedView = self.delegate!.segmentedView?(in: self)
